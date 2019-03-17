@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="canonical" href="https://supportmywriting.com/order/"/>
+    
+    <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="static/css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="static/css/base.css">
+    
+
+</head>
+<body ng-app="App">
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+
+
+
+<div class="slideshow-calculation-block">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 hidden-xs">
+                     <h3 class="slider__title"><span class="white">Our Top Advantages</span></h3>
+              <!--  <div class="slideshow-block">-->
+<div class="slideshow-container">
+<style>
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides" style="display: none;">
+    <div class="numbertext">1 / 6</div>
+    <img src="static/img/1.jpg" alt="quality writing service" style="width:100%">
+
+  </div>
+
+  <div class="mySlides" style="display: none;">
+    <div class="numbertext">2 / 6</div>
+    <img src="static/img/2.jpg" alt="" style="width:100%">
+
+  </div>
+
+  <div class="mySlides" style="display: block;">
+    <div class="numbertext">3 / 6</div>
+    <img src="static/img/3.jpg" alt="" style="width:100%">
+  </div>
+  
+    <div class="mySlides" style="display: none;">
+    <div class="numbertext">4 / 6</div>
+    <img src="static/img/4.jpg" alt="" style="width:100%">
+  </div>
+  
+      <div class="mySlides" style="display: none;">
+    <div class="numbertext">5 / 6</div>
+    <img src="static/img/5.jpg" alt="" style="width:100%">
+  </div>
+  
+        <div class="mySlides" style="display: none;">
+    <div class="numbertext">5 /6</div>
+    <img src="static/img/6.jpg" alt="" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+            </div>
+        </div>
+      <div class="col-lg-4 col-md-4">
+                     <h3 class="calculation-block__title1"><span class="white">Quick calculation</span></h3>
+            <div class="calculation-block calculation-block_main" id="calculation">
+   
+                <div ng-controller="CalculatorController" class="ng-scope">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                           <label class="control-label">Academic level:</label>
+                                <select class="form-control ng-pristine ng-valid" ng-model="order.level" ng-options="level for level in options.levels()"><option value="" class="">-- choose level --</option><option value="0">High School</option><option value="1">Undergrad. (years 1-2)</option><option value="2">Undergrad. (years 3-4)</option><option value="3">Master's</option><option value="4">Doctoral</option></select>
+                            </div>
+                            </div>
+                               <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label class="control-label">First draft deadline:</label>
+                                <select class="form-control ng-pristine ng-valid" ng-model="order.deadline" ng-options="deadline for deadline in options.deadlines()"><option value="" class="">-- choose deadline --</option><option value="0">1 month</option><option value="1">14 days</option><option value="2">7 days</option><option value="3">5 days</option><option value="4">3 days</option><option value="5">48 hours</option><option value="6">24 hours</option><option value="7">16 hours</option><option value="8">8 hours</option><option value="9">4 hours</option></select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="word-page-selector">
+                                <h4 class="word-page-selector__title">Enter number</h4>
+                                <div class="row">
+                                    <div class="col-lg-5 col-sm-5 form-group center">
+                                        <label class="control-label">Pages:</label>
+                                        <input class="form-control ng-pristine ng-valid ng-valid-number ng-valid-min" type="number" ng-model="order.pages" ng-change="pagesToWords()" min="1">
+                                    </div>
+                                    <div class="col-lg-2 col-sm-2 word-page-selector__title">or</div>
+                                    <div class="col-lg-5 col-sm-5 form-group center">
+                                        <label class="control-label">Words:</label>
+                                        <input class="form-control ng-pristine ng-valid ng-valid-number ng-valid-min" type="number" ng-model="words" ng-change="wordsToPages()" min="275">
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="calculation-block__text">
+                    <!--    <p>Push “Place an order” button to detail your order </p>-->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 calculation-block__total-price">
+                            <span ng-show="price" class="ng-hide"><span ng-bind="'Your price: $'" class="ng-binding">Your price: $</span><span class="total-price ng-binding" ng-bind="price">NaN</span></span>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 calculation-block__btn">
+                            <button class="btn btn-lg btn-blue" type="submit" ng-click="placeOrder()">Place an order</button>
+                        </div>
+                            </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="static/js/vendor/angular.min.js"></script>
+        <script src="static/js/vendor/ui-bootstrap-tpls-0.11.2.min.js"></script>
+        <script src="static/js/vendor/angular-local-storage.min.js"></script>
+        
+         <script type="text/javascript">
+            $(document).ready(function() {
+        
+             if (!(true)){
+                    $("#discount-banner-box").delay(5000).fadeIn();
+                };
+        </script>
+        <script type="application/javascript">
+            (function() {
+                "use strict";
+                angular.module('App', ['ui.bootstrap', 'LocalStorageModule'])
+                    .run(['$http', _run])
+                    .constant('zopim', $zopim)
+                    .constant('server', {
+                            isAuthenticated: true,
+                            order_options: {"discount_first_time": 10.0, "levels": ["High School", "Undergrad. (years 1-2)", "Undergrad. (years 3-4)", "Master's", "Doctoral"], "paperFormats": ["MLA", "APA", "Chicago / Turabian", "Not applicable", "Other"], "writerCategories": [{"subtitle1": "", "subtitle2": "", "percent": 0.0, "title": "Best available"}, {"subtitle1": "", "subtitle2": "", "percent": 25.0, "title": "Advanced"}, {"subtitle1": "", "subtitle2": "", "percent": 30.0, "title": "ENL"}], "paperTypes": ["Case studies", "Analytical Paper", "Essays", "Master\u2019s Thesis", "Creative Writing", "Resumes", "Analytical Reports", "Annotated Bibliographies", "Essay Exams", "Reports", "Ph.D. Dissertation", "Power Point Presentation", "Admission Essay", "Book report and critiques", "Home assignment", "Research Paper", "Scholarship essay", "Literature Review"], "subjects": ["Accounting", "Agriculture", "Anthropology", "Architecture", "Art", "Aviation", "Biology", "Business", "Communications", "Computer Science", "Culture", "Ecology", "Economics", "Education", "Engineering", "Finance", "Geography", "Geology", "Health care", "History", "International relations", "Law", "Linguistics", "Literature", "Logistics", "Management", "Marketing", "Mathematics", "Medicine", "Music", "Philosophy", "Poetry", "Political science", "Psychology", "Public relations", "Sociology", "Sports", "Statistics", "Technology", "Tourism", "Web", "Other"], "deadlines": ["1 month", "14 days", "7 days", "5 days", "3 days", "48 hours", "24 hours", "16 hours", "8 hours", "4 hours"], "extras": [{"price": 50.0, "name": "A+ first attempt quality", "unit": "$", "desc": "A+ first attempt quality"}, {"price": 14.95, "name": "Sources copy", "unit": "$", "desc": "Get a copy of sources used"}, {"price": 2.0, "name": "Send SMS on completion", "unit": "$", "desc": "Send SMS on completion"}, {"price": 5.0, "name": "Writer samples", "unit": "$", "desc": "Get writer's samples"}]},
+                            order_prices: {"writerCategories": [0.0, 25.0, 30.0], "extras": [{"price": 50.0, "unit": "$"}, {"price": 14.95, "unit": "$"}, {"price": 2.0, "unit": "$"}, {"price": 5.0, "unit": "$"}], "wordsPerPage": 275, "basic": [[8.0, 10.0, 12.0, 14.0, 16.0], [10.0, 12.0, 14.0, 16.0, 18.0], [11.0, 14.0, 16.0, 18.0, 20.0], [12.0, 16.0, 18.0, 20.0, 22.0], [14.0, 18.0, 20.0, 22.0, 25.0], [16.0, 20.0, 22.0, 25.0, 27.0], [18.0, 22.0, 25.0, 27.0, 30.0], [22.0, 25.0, 27.0, 30.0, 35.0], [26.0, 28.0, 30.0, 35.0, 40.0], [28.0, 30.0, 35.0, 0.0, 0.0]]}
+                        })
+                    .constant('urls', {
+                            order: '/order/',
+                            customerPasswordResetQuery: '/order/customer/password-reset/',
+                            customer: '/order/customer/',
+                            auth: '/order/auth/',
+                            review: '/order/review/'
+                        })
+                    .constant('text', {
+                            error: 'System error, please call us!'
+                        });
+
+                function _run($http) {
+                    $http.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+                    $http.defaults.headers.post['X-CSRFToken'] = '7LKW3YjJj5FVroXfhO7MStyhuUe4zJac';
+                    $http.defaults.headers.delete = {'X-CSRFToken': '7LKW3YjJj5FVroXfhO7MStyhuUe4zJac'};
+                }
+            })();
+        </script>
+
+        <script src="static/js/main.js"></script>
+
+        <script type="text/ng-template" id="customerLinks.html">
+            <button ng-hide="isAuthenticated" ng-click="login()" class="btn btn-blue btn-sm btn-signin" type="submit">Sign in</button>
+<button ng-show="isAuthenticated" ng-click="logout()" class="btn btn-blue btn-sm btn-signin" type="submit">Sign out</button>
+<button ng-hide="isAuthenticated" ng-click="reset()" class="btn btn-default btn-sm btn-signin" type="submit">Reset password</button>
+<button ng-hide="isAuthenticated" ng-click="register()" class="btn btn-default btn-sm btn-signin" type="submit">Register</button>
+<a ng-show="isAuthenticated" href="/order/list/"><button class="btn btn-default btn-sm btn-signin" type="submit">Orders</button></a>
+
+        </script>
+
+        <script type="text/ng-template" id="loginTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title">Login</h3>
+    </div>
+    <div class="modal-body">
+        <div class="modal-panel modal-panel_blue">
+            <div class="row form-group" ng-class="{'has-error': form.email.$dirty && form.email.$invalid}">
+                <label for="emain" class="col-sm-3 col-xs-12 control-label">Email:</label>
+
+                <div class="col-sm-6 col-xs-12">
+                    <input class="form-control" type="email" name="email" ng-model="model.email" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.password.$dirty && form.password.$invalid}">
+                <label for="password" class="col-sm-3 col-xs-12 control-label">Password:</label>
+
+                <div class="col-sm-6 col-xs-12">
+                    <input class="form-control" type="password" name="password" ng-model="model.password" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="error">
+                <div class="col-sm-offset-3 col-xs-12 text-danger">
+                    <b ng-bind="error"></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-disabled="form.$invalid" ng-click="ok()">Login</button>
+        <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+
+        </script>
+
+        <script type="text/ng-template" id="passwordResetTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title">Reset password</h3>
+    </div>
+    <div class="modal-body">
+        <div class="modal-panel modal-panel_blue">
+            <div class="row form-group" ng-class="{'has-error': form.email.$dirty && form.email.$invalid}">
+                <label for="email" class="col-sm-3 col-xs-12 control-label">Email:</label>
+
+                <div class="col-sm-6 col-xs-12">
+                    <input class="form-control" type="email" name="email" ng-model="model.email" required>
+                </div>
+
+                <div class="col-sm-12 col-xs-12">
+                    <small>Enter email and we will send you instructions how to reset your password.</small>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="error">
+                <div class="col-sm-offset-3 col-xs-12 text-danger">
+                    <b ng-bind="error"></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-disabled="form.$invalid" ng-click="ok()">Send email</button>
+        <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+
+        </script>
+
+        <script type="text/ng-template" id="passwordResetSuccessTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title text-center">Password reset started</h3>
+    </div>
+    <div class="modal-body">
+        <p class="text-center">We have sent you email to address <span ng-bind="model.email"></span>, please open your email box and follow instructions.<p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-click="ok()">OK</button>
+    </div>
+</form>
+
+        </script>
+
+        <script type="text/ng-template" id="registerTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title">Register</h3>
+    </div>
+    <div class="modal-body">
+        <div class="modal-panel modal-panel_green">
+            <div class="row form-group" ng-class="{'has-error has-feedback': form.email.$dirty && form.email.$invalid}">
+                <label for="email" class="col-sm-4 xol-xs-12 control-label">
+                    Email:
+                    <div class="modal-panel__help-text" ng-show="form.email.$invalid" ng-class="{'bg-danger': form.email.$dirty}">
+                        <small ng-show="form.email.$error.required">Email is required.</small>
+                        <small ng-show="form.email.$error.email">This is not a valid email.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="email" name="email" ng-model="model.email" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.password.$dirty && form.password.$invalid}">
+                <label for="password" class="col-sm-4 col-xs-12 control-label">
+                    Password:
+                    <div class="modal-panel__help-text" ng-show="form.password.$invalid" ng-class="{'bg-danger': form.password.$dirty}">
+                        <small ng-show="form.password.$error.required">Password is required.</small>
+                        <small ng-show="form.password.$error.match">Passwords do not match.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="password" name="password" ng-model="model.password" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.passwordConfirm.$dirty && form.passwordConfirm.$invalid}">
+                <label for="passwordConfirm" class="col-sm-4 col-xs-12 control-label">
+                    Confirm password:
+                    <div class="modal-panel__help-text" ng-show="form.passwordConfirm.$invalid" ng-class="{'bg-danger': form.passwordConfirm.$dirty}">
+                        <small ng-show="form.passwordConfirm.$error.required">Password confirmation is required.</small>
+                        <small ng-show="form.passwordConfirm.$error.match">Passwords do not match.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="password" name="passwordConfirm" ng-model="model.passwordConfirm" match-to="model.password" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.name.$dirty && form.name.$invalid}">
+                <label for="name" class="col-sm-4 col-xs-12 control-label">
+                    Name:
+                    <div class="modal-panel__help-text" ng-show="form.name.$invalid" ng-class="{'bg-danger': form.name.$dirty}">
+                        <small ng-show="form.name.$error.required">Name is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="text" name="name" ng-model="model.name" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.country.$dirty && form.country.$invalid}">
+                <label for="country" class="col-sm-4 col-xs-12 control-label">
+                    Country:
+                    <div class="modal-panel__help-text" ng-show="form.country.$invalid" ng-class="{'bg-danger': form.country.$dirty}">
+                        <small ng-show="form.country.$error.required">Country is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <select class="form-control" name="country" ng-model="model.country" ng-options="item.name as item.name for item in options.countries()" required>
+                        <option value="">Select Country...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="states" ng-class="{'has-error': form.state.$dirty && form.state.$invalid}">
+                <label for="state" class="col-sm-4 col-xs-12 control-label">
+                    State:
+                    <div class="modal-panel__help-text" ng-show="form.state.$invalid" ng-class="{'bg-danger': form.state.$dirty}">
+                        <small ng-show="form.state.$error.required">State is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <select class="form-control" name="state" ng-model="model.state" ng-options="item.name as item.name for item in states" required>
+                        <option value="">Select State...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.phone.$dirty && form.phone.$invalid}">
+                <label for="phone" class="col-sm-4 col-xs-12 control-label">
+                    Phone:
+                    <div class="modal-panel__help-text" ng-show="form.phone.$invalid" ng-class="{'bg-danger': form.phone.$dirty}">
+                        <small ng-show="form.phone.$error.required">Phone number is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <div class="input-group">
+                        <div class="input-group-addon"><span ng-bind="model.dial" title="Country Dial Code"></span></div>
+                        <input class="form-control" type="tel" name="phone" ng-model="model.phone" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="error">
+                <div class="col-sm-offset-4 col-sm-8 col-xs-12 text-danger">
+                    <b ng-bind="error"></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-disabled="form.$invalid"   ng-click="ok()">Register</button>
+        <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+    </div>
+</form>        
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       <div class="col-lg-4 col-md-4">
+                     <h3 class="calculation-block__title1"><span class="white">Quick calculation</span></h3>
+            <div class="calculation-block calculation-block_main" id="calculation">
+   
+                <div ng-controller="CalculatorController">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                           <label class="control-label">Academic level:</label>
+                                <select class="form-control" ng-model="order.level" ng-options="level for level in options.levels()">
+                                    <option value="">-- choose level --</option>
+                                </select>
+                            </div>
+                            </div>
+                               <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label class="control-label">First draft deadline:</label>
+                                <select class="form-control" ng-model="order.deadline" ng-options="deadline for deadline in options.deadlines()">
+                                    <option value="">-- choose deadline --</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="word-page-selector">
+                                <h4 class="word-page-selector__title">Enter number</h4>
+                                <div class="row">
+                                    <div class="col-lg-5 col-sm-5 form-group center">
+                                        <label class="control-label">Pages:</label>
+                                        <input class="form-control" type="number" ng-model="order.pages" ng-change="pagesToWords()" min="1">
+                                    </div>
+                                    <div class="col-lg-2 col-sm-2 word-page-selector__title">or</div>
+                                    <div class="col-lg-5 col-sm-5 form-group center">
+                                        <label class="control-label">Words:</label>
+                                        <input class="form-control" type="number" ng-model="words" ng-change="wordsToPages()" min="275">
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="calculation-block__text">
+                    <!--    <p>Push “Place an order” button to detail your order </p>-->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 calculation-block__total-price">
+                            <span ng-show="price"><span ng-bind="'Your price: $'"></span><span class="total-price" ng-bind="price"></span></span>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 calculation-block__btn">
+                            <button class="btn btn-lg btn-blue" type="submit" ng-click="placeOrder()">Place an order</button>
+                        </div>
+                            </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div> -->
+
+        <script src="static/js/vendor/angular.min.js"></script>
+        <script src="static/js/vendor/ui-bootstrap-tpls-0.11.2.min.js"></script>
+        <script src="static/js/vendor/angular-local-storage.min.js"></script>
+        
+<!--          <script type="text/javascript">
+            $(document).ready(function() {
+        
+             if (!(true)){
+                    $("#discount-banner-box").delay(5000).fadeIn();
+                };
+        </script> -->
+        <script type="application/javascript">
+            (function() {
+                "use strict";
+                angular.module('App', ['ui.bootstrap', 'LocalStorageModule'])
+                    .run(['$http', _run])
+                    .constant('server', {
+                            isAuthenticated: true,
+                            order_options: {"discount_first_time": 10.0, "levels": ["High School", "Undergrad. (years 1-2)", "Undergrad. (years 3-4)", "Master's", "Doctoral"], "paperFormats": ["MLA", "APA", "Chicago / Turabian", "Not applicable", "Other"], "writerCategories": [{"subtitle1": "", "subtitle2": "", "percent": 0.0, "title": "Best available"}, {"subtitle1": "", "subtitle2": "", "percent": 25.0, "title": "Advanced"}, {"subtitle1": "", "subtitle2": "", "percent": 30.0, "title": "ENL"}], "paperTypes": ["Case studies", "Analytical Paper", "Essays", "Master\u2019s Thesis", "Creative Writing", "Resumes", "Analytical Reports", "Annotated Bibliographies", "Essay Exams", "Reports", "Ph.D. Dissertation", "Power Point Presentation", "Admission Essay", "Book report and critiques", "Home assignment", "Research Paper", "Scholarship essay", "Literature Review"], "subjects": ["Accounting", "Agriculture", "Anthropology", "Architecture", "Art", "Aviation", "Biology", "Business", "Communications", "Computer Science", "Culture", "Ecology", "Economics", "Education", "Engineering", "Finance", "Geography", "Geology", "Health care", "History", "International relations", "Law", "Linguistics", "Literature", "Logistics", "Management", "Marketing", "Mathematics", "Medicine", "Music", "Philosophy", "Poetry", "Political science", "Psychology", "Public relations", "Sociology", "Sports", "Statistics", "Technology", "Tourism", "Web", "Other"], "deadlines": ["1 month", "14 days", "7 days", "5 days", "3 days", "48 hours", "24 hours", "16 hours", "8 hours", "4 hours"], "extras": [{"price": 50.0, "name": "A+ first attempt quality", "unit": "$", "desc": "A+ first attempt quality"}, {"price": 14.95, "name": "Sources copy", "unit": "$", "desc": "Get a copy of sources used"}, {"price": 2.0, "name": "Send SMS on completion", "unit": "$", "desc": "Send SMS on completion"}, {"price": 5.0, "name": "Writer samples", "unit": "$", "desc": "Get writer's samples"}]},
+                            order_prices: {"writerCategories": [0.0, 25.0, 30.0], "extras": [{"price": 50.0, "unit": "$"}, {"price": 14.95, "unit": "$"}, {"price": 2.0, "unit": "$"}, {"price": 5.0, "unit": "$"}], "wordsPerPage": 275, "basic": [[8.0, 10.0, 12.0, 14.0, 16.0], [10.0, 12.0, 14.0, 16.0, 18.0], [11.0, 14.0, 16.0, 18.0, 20.0], [12.0, 16.0, 18.0, 20.0, 22.0], [14.0, 18.0, 20.0, 22.0, 25.0], [16.0, 20.0, 22.0, 25.0, 27.0], [18.0, 22.0, 25.0, 27.0, 30.0], [22.0, 25.0, 27.0, 30.0, 35.0], [26.0, 28.0, 30.0, 35.0, 40.0], [28.0, 30.0, 35.0, 0.0, 0.0]]}
+                        })
+                    .constant('urls', {
+                            order: '/order/',
+                            customerPasswordResetQuery: '/order/customer/password-reset/',
+                            customer: '/order/customer/',
+                            auth: '/order/auth/',
+                            review: '/order/review/'
+                        })
+                    .constant('text', {
+                            error: 'System error, please call us!'
+                        });
+
+                function _run($http) {
+                    $http.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+                    $http.defaults.headers.post['X-CSRFToken'] = '7LKW3YjJj5FVroXfhO7MStyhuUe4zJac';
+                    $http.defaults.headers.delete = {'X-CSRFToken': '7LKW3YjJj5FVroXfhO7MStyhuUe4zJac'};
+                }
+            })();
+        </script>
+
+        <script src="static/js/main.js"></script>
+
+        <script type="text/ng-template" id="customerLinks.html">
+            <button ng-hide="isAuthenticated" ng-click="login()" class="btn btn-blue btn-sm btn-signin" type="submit">Sign in</button>
+<button ng-show="isAuthenticated" ng-click="logout()" class="btn btn-blue btn-sm btn-signin" type="submit">Sign out</button>
+<button ng-hide="isAuthenticated" ng-click="reset()" class="btn btn-default btn-sm btn-signin" type="submit">Reset password</button>
+<button ng-hide="isAuthenticated" ng-click="register()" class="btn btn-default btn-sm btn-signin" type="submit">Register</button>
+<a ng-show="isAuthenticated" href="/order/list/"><button class="btn btn-default btn-sm btn-signin" type="submit">Orders</button></a>
+
+        </script>
+
+        <script type="text/ng-template" id="loginTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title">Login</h3>
+    </div>
+    <div class="modal-body">
+        <div class="modal-panel modal-panel_blue">
+            <div class="row form-group" ng-class="{'has-error': form.email.$dirty && form.email.$invalid}">
+                <label for="emain" class="col-sm-3 col-xs-12 control-label">Email:</label>
+
+                <div class="col-sm-6 col-xs-12">
+                    <input class="form-control" type="email" name="email" ng-model="model.email" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.password.$dirty && form.password.$invalid}">
+                <label for="password" class="col-sm-3 col-xs-12 control-label">Password:</label>
+
+                <div class="col-sm-6 col-xs-12">
+                    <input class="form-control" type="password" name="password" ng-model="model.password" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="error">
+                <div class="col-sm-offset-3 col-xs-12 text-danger">
+                    <b ng-bind="error"></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-disabled="form.$invalid" ng-click="ok()">Login</button>
+        <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+
+        </script>
+
+        <script type="text/ng-template" id="passwordResetTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title">Reset password</h3>
+    </div>
+    <div class="modal-body">
+        <div class="modal-panel modal-panel_blue">
+            <div class="row form-group" ng-class="{'has-error': form.email.$dirty && form.email.$invalid}">
+                <label for="email" class="col-sm-3 col-xs-12 control-label">Email:</label>
+
+                <div class="col-sm-6 col-xs-12">
+                    <input class="form-control" type="email" name="email" ng-model="model.email" required>
+                </div>
+
+                <div class="col-sm-12 col-xs-12">
+                    <small>Enter email and we will send you instructions how to reset your password.</small>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="error">
+                <div class="col-sm-offset-3 col-xs-12 text-danger">
+                    <b ng-bind="error"></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-disabled="form.$invalid" ng-click="ok()">Send email</button>
+        <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+
+        </script>
+
+        <script type="text/ng-template" id="passwordResetSuccessTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title text-center">Password reset started</h3>
+    </div>
+    <div class="modal-body">
+        <p class="text-center">We have sent you email to address <span ng-bind="model.email"></span>, please open your email box and follow instructions.<p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-click="ok()">OK</button>
+    </div>
+</form>
+
+        </script>
+
+        <script type="text/ng-template" id="registerTemplate.html">
+            <form name="form" class="css-form" novalidate>
+    <div class="modal-header">
+        <h3 class="modal-title">Register</h3>
+    </div>
+    <div class="modal-body">
+        <div class="modal-panel modal-panel_green">
+            <div class="row form-group" ng-class="{'has-error has-feedback': form.email.$dirty && form.email.$invalid}">
+                <label for="email" class="col-sm-4 xol-xs-12 control-label">
+                    Email:
+                    <div class="modal-panel__help-text" ng-show="form.email.$invalid" ng-class="{'bg-danger': form.email.$dirty}">
+                        <small ng-show="form.email.$error.required">Email is required.</small>
+                        <small ng-show="form.email.$error.email">This is not a valid email.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="email" name="email" ng-model="model.email" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.password.$dirty && form.password.$invalid}">
+                <label for="password" class="col-sm-4 col-xs-12 control-label">
+                    Password:
+                    <div class="modal-panel__help-text" ng-show="form.password.$invalid" ng-class="{'bg-danger': form.password.$dirty}">
+                        <small ng-show="form.password.$error.required">Password is required.</small>
+                        <small ng-show="form.password.$error.match">Passwords do not match.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="password" name="password" ng-model="model.password" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.passwordConfirm.$dirty && form.passwordConfirm.$invalid}">
+                <label for="passwordConfirm" class="col-sm-4 col-xs-12 control-label">
+                    Confirm password:
+                    <div class="modal-panel__help-text" ng-show="form.passwordConfirm.$invalid" ng-class="{'bg-danger': form.passwordConfirm.$dirty}">
+                        <small ng-show="form.passwordConfirm.$error.required">Password confirmation is required.</small>
+                        <small ng-show="form.passwordConfirm.$error.match">Passwords do not match.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="password" name="passwordConfirm" ng-model="model.passwordConfirm" match-to="model.password" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.name.$dirty && form.name.$invalid}">
+                <label for="name" class="col-sm-4 col-xs-12 control-label">
+                    Name:
+                    <div class="modal-panel__help-text" ng-show="form.name.$invalid" ng-class="{'bg-danger': form.name.$dirty}">
+                        <small ng-show="form.name.$error.required">Name is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <input class="form-control" type="text" name="name" ng-model="model.name" required>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.country.$dirty && form.country.$invalid}">
+                <label for="country" class="col-sm-4 col-xs-12 control-label">
+                    Country:
+                    <div class="modal-panel__help-text" ng-show="form.country.$invalid" ng-class="{'bg-danger': form.country.$dirty}">
+                        <small ng-show="form.country.$error.required">Country is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <select class="form-control" name="country" ng-model="model.country" ng-options="item.name as item.name for item in options.countries()" required>
+                        <option value="">Select Country...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="states" ng-class="{'has-error': form.state.$dirty && form.state.$invalid}">
+                <label for="state" class="col-sm-4 col-xs-12 control-label">
+                    State:
+                    <div class="modal-panel__help-text" ng-show="form.state.$invalid" ng-class="{'bg-danger': form.state.$dirty}">
+                        <small ng-show="form.state.$error.required">State is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <select class="form-control" name="state" ng-model="model.state" ng-options="item.name as item.name for item in states" required>
+                        <option value="">Select State...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-class="{'has-error': form.phone.$dirty && form.phone.$invalid}">
+                <label for="phone" class="col-sm-4 col-xs-12 control-label">
+                    Phone:
+                    <div class="modal-panel__help-text" ng-show="form.phone.$invalid" ng-class="{'bg-danger': form.phone.$dirty}">
+                        <small ng-show="form.phone.$error.required">Phone number is required.</small>
+                    </div>
+                </label>
+                <div class="col-sm-7 col-xs-12">
+                    <div class="input-group">
+                        <div class="input-group-addon"><span ng-bind="model.dial" title="Country Dial Code"></span></div>
+                        <input class="form-control" type="tel" name="phone" ng-model="model.phone" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-group" ng-if="error">
+                <div class="col-sm-offset-4 col-sm-8 col-xs-12 text-danger">
+                    <b ng-bind="error"></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-blue" ng-disabled="form.$invalid"   ng-click="ok()">Register</button>
+        <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+    </div>
+</form>
+        </script>
+
+</body>
+</html>
